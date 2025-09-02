@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> Interactive Web Page with JavaScript</h1>
+  <section>
+    <h2> Event Handling Demo</h2>
+    <button id="colorBtn">Change Background Color</button>
+    <p id="hoverText">Hover over me!</p>
+    <p id="typingOutput"></p>
+    <input type="text" id="typingInput" placeholder="Type something...">
+  </section>
+  <section>
+    <h2> Interactive Features</h2>
+    <button id="themeToggle">Toggle Light/Dark Mode</button>
+    <div class="counter">
+      <button id="decrease">-</button>
+      <span id="count">0</span>
+      <button id="increase">+</button>
+    </div>
+  </section>
+  <section>
+    <h2> Form Validation</h2>
+    <form id="myForm">
+      <label>Name:</label>
+      <input type="text" id="name"><span class="error" id="nameError"></span><br><br>
+
+      <label>Email:</label>
+      <input type="text" id="email"><span class="error" id="emailError"></span><br><br>
+
+      <label>Password:</label>
+      <input type="password" id="password"><span class="error" id="passwordError"></span><br><br>
+
+      <button type="submit">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
